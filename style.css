@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(141, 140, 140);
+    min-height: 100px;
+    width: 520px;
+    margin: 100px auto;
+    border-radius: 10px;
+    height: auto;
+}
+.base{
+    width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.base h4{
+    font-size: 36px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    font-weight: bold;
+    color: navy;
+    background: rgb(109, 105, 105);
+    padding: 5px;
+}
+.base h3{
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+}
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+   
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #1073d0;
+    word-spacing: 2.7px;
+}
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    font-weight: normal;
+    min-height: 45px;
+    border: 3px solid #1073d0;
+    border-radius: 10px;
+    color: #1073d0;
+    font-size: 19px;
+    padding: 12px;
+}
+input[type=text]:focus{
+    background: #ffff;
+    border: 3px solid red;
+}
+input[type=button]{
+    width: 140px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #0761b6;
+    padding: 14px 16px;
+    color: #ffff;
+    font-size: 17px;
+} 
+input[type=button]:hover{
+    background-color: #003669;
+}
+#age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    overflow: hidden;
+     font-family: sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+    padding: 10px;
+}
